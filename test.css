@@ -20,22 +20,22 @@ header {
 }
 
 header h1 {
-    margin-bottom: 10px;
+    font-size: 35px;
 }
 
 header p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    gap: 40px;
 }
 nav a {
     color: white;
-    margin-right: 30px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -61,27 +61,38 @@ main h2 {
     margin: 0 auto;
 }
 
-main p {
-    padding: 20px;
-}
-
-main img {
-    border-radius: 10px;
+#about p {
+    margin: 40px;
 }
 
 #about img {
-    width: 300px;
-    margin-top: 30px;
+    border-radius: 10px;
 }
 
 #menu img {
-    margin-top: 30px;
+    border-radius: 10px;
 }
 
-menu div {
-    display: flex;
+.menu-list {
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu-item {
     flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.menu-item p {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.menu-item:hover {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -102,6 +113,9 @@ input, textarea {
     border-radius: 5px;
     border-color: #333;
 }
+textarea {
+    height: 80px;
+}
 
 button {
     width: 100%;
@@ -121,5 +135,6 @@ footer {
     background-color: #2f5d34;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
+    padding-bottom: 15px;
 }
